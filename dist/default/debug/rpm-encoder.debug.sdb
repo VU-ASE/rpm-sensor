@@ -1,0 +1,1059 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F06Q41 ]
+[d frameptr 1249 ]
+"49 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/mcc_generated_files/i2c_client/src/i2c1.c
+[e E13402 . `uc
+I2C_CLIENT_ERROR_NONE 0
+I2C_CLIENT_ERROR_BUS_COLLISION 1
+I2C_CLIENT_ERROR_WRITE_COLLISION 2
+I2C_CLIENT_ERROR_RECEIVE_OVERFLOW 3
+I2C_CLIENT_ERROR_TRANSMIT_UNDERFLOW 4
+I2C_CLIENT_ERROR_READ_UNDERFLOW 5
+]
+[e E13386 . `uc
+I2C_CLIENT_TRANSFER_DIR_WRITE 0
+I2C_CLIENT_TRANSFER_DIR_READ 1
+]
+[e E13390 . `uc
+I2C_CLIENT_ACK_STATUS_RECEIVED_ACK 0
+I2C_CLIENT_ACK_STATUS_RECEIVED_NACK 1
+]
+[e E13394 . `uc
+I2C_CLIENT_TRANSFER_EVENT_NONE 0
+I2C_CLIENT_TRANSFER_EVENT_ADDR_MATCH 1
+I2C_CLIENT_TRANSFER_EVENT_RX_READY 2
+I2C_CLIENT_TRANSFER_EVENT_TX_READY 3
+I2C_CLIENT_TRANSFER_EVENT_STOP_BIT_RECEIVED 4
+I2C_CLIENT_TRANSFER_EVENT_ERROR 5
+]
+"67 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/main.c
+[e E57 . `uc
+I2C_CLIENT_TRANSFER_EVENT_NONE 0
+I2C_CLIENT_TRANSFER_EVENT_ADDR_MATCH 1
+I2C_CLIENT_TRANSFER_EVENT_RX_READY 2
+I2C_CLIENT_TRANSFER_EVENT_TX_READY 3
+I2C_CLIENT_TRANSFER_EVENT_STOP_BIT_RECEIVED 4
+I2C_CLIENT_TRANSFER_EVENT_ERROR 5
+]
+"4 /Applications/microchip/xc8/v3.00/pic/sources/c99/common/fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 /Applications/microchip/xc8/v3.00/pic/sources/c99/common/float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 /Applications/microchip/xc8/v3.00/pic/sources/c99/common/ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 /Applications/microchip/xc8/v3.00/pic/sources/c99/common/ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 /Applications/microchip/xc8/v3.00/pic/sources/c99/common/ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 /Applications/microchip/xc8/v3.00/pic/sources/c99/common/ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 /Applications/microchip/xc8/v3.00/pic/sources/c99/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 /Applications/microchip/xc8/v3.00/pic/sources/c99/common/sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 /Applications/microchip/xc8/v3.00/pic/sources/c99/common/sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 /Applications/microchip/xc8/v3.00/pic/sources/c99/common/Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 /Applications/microchip/xc8/v3.00/pic/sources/c99/common/Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"51 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/main.c
+[v _OnCmp2Edge OnCmp2Edge `(v  1 e 1 0 ]
+"146
+[v _main main `(v  1 e 1 0 ]
+"40 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/mcc_generated_files/comparator/src/cmp1.c
+[v _CMP1_Initialize CMP1_Initialize `(v  1 e 1 0 ]
+"86
+[v _CMP1_ISR CMP1_ISR `(v  1 e 1 0 ]
+"97
+[v _CMP1_InterruptCallbackRegister CMP1_InterruptCallbackRegister `(v  1 e 1 0 ]
+"105
+[v _CMP1_DefaultInterruptCallback CMP1_DefaultInterruptCallback `(v  1 s 1 CMP1_DefaultInterruptCallback ]
+"40 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/mcc_generated_files/comparator/src/cmp2.c
+[v _CMP2_Initialize CMP2_Initialize `(v  1 e 1 0 ]
+"80
+[v _CMP2_GetOutputStatus CMP2_GetOutputStatus `(a  1 e 1 0 ]
+"86
+[v _CMP2_ISR CMP2_ISR `(v  1 e 1 0 ]
+"97
+[v _CMP2_InterruptCallbackRegister CMP2_InterruptCallbackRegister `(v  1 e 1 0 ]
+"105
+[v _CMP2_DefaultInterruptCallback CMP2_DefaultInterruptCallback `(v  1 s 1 CMP2_DefaultInterruptCallback ]
+"44 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/mcc_generated_files/dac/src/dac2.c
+[v _DAC2_Initialize DAC2_Initialize `(v  1 e 1 0 ]
+"53
+[v _DAC2_SetOutput DAC2_SetOutput `(v  1 e 1 0 ]
+"67 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/mcc_generated_files/i2c_client/src/i2c1.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+"120
+[v _I2C1_Deinitialize I2C1_Deinitialize `(v  1 e 1 0 ]
+"143
+[v _I2C1_WriteByte I2C1_WriteByte `(v  1 e 1 0 ]
+"148
+[v _I2C1_ReadByte I2C1_ReadByte `(uc  1 e 1 0 ]
+"158
+[v _I2C1_ErrorGet I2C1_ErrorGet `(E13402  1 e 1 0 ]
+"166
+[v _I2C1_TransferDirGet I2C1_TransferDirGet `(E13386  1 e 1 0 ]
+"171
+[v _I2C1_LastByteAckStatusGet I2C1_LastByteAckStatusGet `(E13390  1 e 1 0 ]
+"176
+[v _I2C1_CallbackRegister I2C1_CallbackRegister `(v  1 e 1 0 ]
+"184
+[v _I2C1_ISR I2C1_ISR `(v  1 e 1 0 ]
+"189
+[v _I2C1_ERROR_ISR I2C1_ERROR_ISR `(v  1 e 1 0 ]
+"194
+[v _I2C1_EventHandler I2C1_EventHandler `(v  1 s 1 I2C1_EventHandler ]
+"265
+[v _I2C1_ErrorEventHandler I2C1_ErrorEventHandler `(v  1 s 1 I2C1_ErrorEventHandler ]
+"39 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/mcc_generated_files/system/src/clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+"42 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"80
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+"126
+[v _INT0_CallBack INT0_CallBack `(v  1 e 1 0 ]
+"135
+[v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
+"139
+[v _INT0_DefaultInterruptHandler INT0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"152
+[v _INT1_CallBack INT1_CallBack `(v  1 e 1 0 ]
+"161
+[v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
+"165
+[v _INT1_DefaultInterruptHandler INT1_DefaultInterruptHandler `(v  1 e 1 0 ]
+"178
+[v _INT2_CallBack INT2_CallBack `(v  1 e 1 0 ]
+"187
+[v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
+"191
+[v _INT2_DefaultInterruptHandler INT2_DefaultInterruptHandler `(v  1 e 1 0 ]
+"38 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"41 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/mcc_generated_files/system/src/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"60 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/mcc_generated_files/timer/src/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+"89
+[v _TMR1_Deinitialize TMR1_Deinitialize `(v  1 e 1 0 ]
+"107
+[v _TMR1_Start TMR1_Start `(v  1 e 1 0 ]
+"112
+[v _TMR1_Stop TMR1_Stop `(v  1 e 1 0 ]
+"117
+[v _TMR1_CounterGet TMR1_CounterGet `(ul  1 e 4 0 ]
+"131
+[v _TMR1_CounterSet TMR1_CounterSet `(v  1 e 1 0 ]
+"149
+[v _TMR1_PeriodSet TMR1_PeriodSet `(v  1 e 1 0 ]
+"156
+[v _TMR1_PeriodGet TMR1_PeriodGet `(ul  1 e 4 0 ]
+"161
+[v _TMR1_MaxCountGet TMR1_MaxCountGet `(ul  1 e 4 0 ]
+"166
+[v _TMR1_OverflowISR TMR1_OverflowISR `(v  1 e 1 0 ]
+"179
+[v _TMR1_OverflowCallbackRegister TMR1_OverflowCallbackRegister `(v  1 e 1 0 ]
+"184
+[v _TMR1_DefaultOverflowCallback TMR1_DefaultOverflowCallback `(v  1 s 1 TMR1_DefaultOverflowCallback ]
+"69 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/mcc_generated_files/uart/src/uart1.c
+[v _UART1_Initialize UART1_Initialize `(v  1 e 1 0 ]
+"275
+[v _UART1_DefaultFramingErrorCallback UART1_DefaultFramingErrorCallback `(v  1 s 1 UART1_DefaultFramingErrorCallback ]
+"280
+[v _UART1_DefaultOverrunErrorCallback UART1_DefaultOverrunErrorCallback `(v  1 s 1 UART1_DefaultOverrunErrorCallback ]
+"285
+[v _UART1_DefaultParityErrorCallback UART1_DefaultParityErrorCallback `(v  1 s 1 UART1_DefaultParityErrorCallback ]
+"290
+[v _UART1_FramingErrorCallbackRegister UART1_FramingErrorCallbackRegister `(v  1 e 1 0 ]
+"298
+[v _UART1_OverrunErrorCallbackRegister UART1_OverrunErrorCallbackRegister `(v  1 e 1 0 ]
+"306
+[v _UART1_ParityErrorCallbackRegister UART1_ParityErrorCallbackRegister `(v  1 e 1 0 ]
+"1900 /Applications/microchip/mplabx/v6.25/packs/Microchip/PIC18F-Q_DFP/1.27.449/xc8/pic/include/proc/pic18f06q41.h
+[v _CM1CON0 CM1CON0 `VEuc  1 e 1 @112 ]
+[s S95 . 1 `uc 1 SYNC 1 0 :1:0 
+`uc 1 HYS 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 POL 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 OUT 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"1925
+[s S103 . 1 `uc 1 C1SYNC 1 0 :1:0 
+`uc 1 C1HYS 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 C1POL 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 C1OUT 1 0 :1:6 
+`uc 1 C1EN 1 0 :1:7 
+]
+[u S111 . 1 `S95 1 . 1 0 `S103 1 . 1 0 ]
+[v _CM1CON0bits CM1CON0bits `VES111  1 e 1 @112 ]
+"1980
+[v _CM1CON1 CM1CON1 `VEuc  1 e 1 @113 ]
+"2020
+[v _CM1NCH CM1NCH `VEuc  1 e 1 @114 ]
+"2080
+[v _CM1PCH CM1PCH `VEuc  1 e 1 @115 ]
+"2140
+[v _CM2CON0 CM2CON0 `VEuc  1 e 1 @116 ]
+"2165
+[s S248 . 1 `uc 1 C2SYNC 1 0 :1:0 
+`uc 1 C2HYS 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 C2POL 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 C2OUT 1 0 :1:6 
+`uc 1 C2EN 1 0 :1:7 
+]
+[u S256 . 1 `S95 1 . 1 0 `S248 1 . 1 0 ]
+[v _CM2CON0bits CM2CON0bits `VES256  1 e 1 @116 ]
+"2220
+[v _CM2CON1 CM2CON1 `VEuc  1 e 1 @117 ]
+"2260
+[v _CM2NCH CM2NCH `VEuc  1 e 1 @118 ]
+"2320
+[v _CM2PCH CM2PCH `VEuc  1 e 1 @119 ]
+"4844
+[v _DAC2DATL DAC2DATL `VEuc  1 e 1 @160 ]
+"4922
+[v _DAC2CON DAC2CON `VEuc  1 e 1 @162 ]
+"5825
+[v _ACTCON ACTCON `VEuc  1 e 1 @172 ]
+"5895
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @173 ]
+"6035
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @175 ]
+"6075
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @176 ]
+"6133
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @177 ]
+"6335
+[v _OSCEN OSCEN `VEuc  1 e 1 @179 ]
+"9316
+[v _RA5PPS RA5PPS `VEuc  1 e 1 @518 ]
+"9366
+[v _RC0PPS RC0PPS `VEuc  1 e 1 @529 ]
+"9416
+[v _RC1PPS RC1PPS `VEuc  1 e 1 @530 ]
+"12414
+[v _I2C1SDAPPS I2C1SDAPPS `VEuc  1 e 1 @624 ]
+"12486
+[v _I2C1SCLPPS I2C1SCLPPS `VEuc  1 e 1 @625 ]
+"12558
+[v _U1RXPPS U1RXPPS `VEuc  1 e 1 @626 ]
+"12990
+[v _RC1I2C RC1I2C `VEuc  1 e 1 @648 ]
+"13122
+[v _RC0I2C RC0I2C `VEuc  1 e 1 @649 ]
+"13254
+[v _I2C1RXB I2C1RXB `VEuc  1 e 1 @650 ]
+"13274
+[v _I2C1TXB I2C1TXB `VEuc  1 e 1 @651 ]
+"13294
+[v _I2C1CNTL I2C1CNTL `VEuc  1 e 1 @652 ]
+"13364
+[v _I2C1CNTH I2C1CNTH `VEuc  1 e 1 @653 ]
+"13434
+[v _I2C1ADB0 I2C1ADB0 `VEuc  1 e 1 @654 ]
+"13474
+[v _I2C1ADR0 I2C1ADR0 `VEuc  1 e 1 @656 ]
+"13494
+[v _I2C1ADR1 I2C1ADR1 `VEuc  1 e 1 @657 ]
+"13515
+[v _I2C1ADR2 I2C1ADR2 `VEuc  1 e 1 @658 ]
+"13535
+[v _I2C1ADR3 I2C1ADR3 `VEuc  1 e 1 @659 ]
+"13556
+[v _I2C1CON0 I2C1CON0 `VEuc  1 e 1 @660 ]
+[s S518 . 1 `uc 1 MODE 1 0 :3:0 
+`uc 1 MDR 1 0 :1:3 
+`uc 1 CSTR 1 0 :1:4 
+`uc 1 S 1 0 :1:5 
+`uc 1 RSEN 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"13578
+[s S525 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 I2CEN 1 0 :1:7 
+]
+[u S531 . 1 `S518 1 . 1 0 `S525 1 . 1 0 ]
+[v _I2C1CON0bits I2C1CON0bits `VES531  1 e 1 @660 ]
+"13633
+[v _I2C1CON1 I2C1CON1 `VEuc  1 e 1 @661 ]
+[s S679 . 1 `uc 1 CSD 1 0 :1:0 
+`uc 1 TXU 1 0 :1:1 
+`uc 1 RXO 1 0 :1:2 
+`uc 1 P 1 0 :1:3 
+`uc 1 ACKT 1 0 :1:4 
+`uc 1 ACKSTAT 1 0 :1:5 
+`uc 1 ACKDT 1 0 :1:6 
+`uc 1 ACKCNT 1 0 :1:7 
+]
+"13650
+[u S688 . 1 `S679 1 . 1 0 ]
+[v _I2C1CON1bits I2C1CON1bits `VES688  1 e 1 @661 ]
+"13695
+[v _I2C1CON2 I2C1CON2 `VEuc  1 e 1 @662 ]
+"13771
+[v _I2C1ERR I2C1ERR `VEuc  1 e 1 @663 ]
+[s S481 . 1 `uc 1 NACKIE 1 0 :1:0 
+`uc 1 BCLIE 1 0 :1:1 
+`uc 1 BTOIE 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 NACKIF 1 0 :1:4 
+`uc 1 BCLIF 1 0 :1:5 
+`uc 1 BTOIF 1 0 :1:6 
+]
+"13796
+[s S489 . 1 `uc 1 NACK1IE 1 0 :1:0 
+`uc 1 BCL1IE 1 0 :1:1 
+`uc 1 BTO1IE 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 NACK1IF 1 0 :1:4 
+`uc 1 BCL1IF 1 0 :1:5 
+`uc 1 BTO1IF 1 0 :1:6 
+]
+[u S497 . 1 `S481 1 . 1 0 `S489 1 . 1 0 ]
+[v _I2C1ERRbits I2C1ERRbits `VES497  1 e 1 @663 ]
+"13861
+[v _I2C1STAT0 I2C1STAT0 `VEuc  1 e 1 @664 ]
+[s S603 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 D 1 0 :1:3 
+`uc 1 R 1 0 :1:4 
+`uc 1 MMA 1 0 :1:5 
+`uc 1 SMA 1 0 :1:6 
+`uc 1 BFRE 1 0 :1:7 
+]
+"13891
+[s S610 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 DATA 1 0 :1:3 
+`uc 1 READ 1 0 :1:4 
+]
+[s S614 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_ADDRESS 1 0 :1:3 
+`uc 1 NOT_WRITE 1 0 :1:4 
+]
+[s S618 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_A 1 0 :1:3 
+`uc 1 NOT_W 1 0 :1:4 
+]
+[u S622 . 1 `S603 1 . 1 0 `S610 1 . 1 0 `S614 1 . 1 0 `S618 1 . 1 0 ]
+[v _I2C1STAT0bits I2C1STAT0bits `VES622  1 e 1 @664 ]
+[s S658 . 1 `uc 1 RXBF 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 CLRBF 1 0 :1:2 
+`uc 1 RXRE 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 TXBE 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 TXWE 1 0 :1:7 
+]
+"13968
+[u S667 . 1 `S658 1 . 1 0 ]
+[v _I2C1STAT1bits I2C1STAT1bits `VES667  1 e 1 @665 ]
+[s S558 . 1 `uc 1 SCIF 1 0 :1:0 
+`uc 1 RSCIF 1 0 :1:1 
+`uc 1 PCIF 1 0 :1:2 
+`uc 1 ADRIF 1 0 :1:3 
+`uc 1 WRIF 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ACKTIF 1 0 :1:6 
+`uc 1 CNTIF 1 0 :1:7 
+]
+"14025
+[s S567 . 1 `uc 1 SC1IF 1 0 :1:0 
+`uc 1 RSC1IF 1 0 :1:1 
+`uc 1 PC1IF 1 0 :1:2 
+`uc 1 ADR1IF 1 0 :1:3 
+`uc 1 WR1IF 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ACKT1IF 1 0 :1:6 
+`uc 1 CNT1IF 1 0 :1:7 
+]
+[u S576 . 1 `S558 1 . 1 0 `S567 1 . 1 0 ]
+[v _I2C1PIRbits I2C1PIRbits `VES576  1 e 1 @666 ]
+[s S441 . 1 `uc 1 SCIE 1 0 :1:0 
+`uc 1 RSCIE 1 0 :1:1 
+`uc 1 PCIE 1 0 :1:2 
+`uc 1 ADRIE 1 0 :1:3 
+`uc 1 WRIE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ACKTIE 1 0 :1:6 
+`uc 1 CNTIE 1 0 :1:7 
+]
+"14127
+[s S450 . 1 `uc 1 SC1IE 1 0 :1:0 
+`uc 1 RSC1IE 1 0 :1:1 
+`uc 1 PC1IE 1 0 :1:2 
+`uc 1 ADR1IE 1 0 :1:3 
+`uc 1 WR1IE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ACKT1IE 1 0 :1:6 
+`uc 1 CNT1IE 1 0 :1:7 
+]
+[u S459 . 1 `S441 1 . 1 0 `S450 1 . 1 0 ]
+[v _I2C1PIEbits I2C1PIEbits `VES459  1 e 1 @667 ]
+"14272
+[v _I2C1BAUD I2C1BAUD `VEuc  1 e 1 @669 ]
+"14464
+[v _U1RXB U1RXB `VEuc  1 e 1 @673 ]
+"14502
+[v _U1RXCHK U1RXCHK `VEuc  1 e 1 @674 ]
+"14522
+[v _U1TXB U1TXB `VEuc  1 e 1 @675 ]
+"14560
+[v _U1TXCHK U1TXCHK `VEuc  1 e 1 @676 ]
+"14587
+[v _U1P1L U1P1L `VEuc  1 e 1 @677 ]
+"14607
+[v _U1P1H U1P1H `VEuc  1 e 1 @678 ]
+"14634
+[v _U1P2L U1P2L `VEuc  1 e 1 @679 ]
+"14654
+[v _U1P2H U1P2H `VEuc  1 e 1 @680 ]
+"14681
+[v _U1P3L U1P3L `VEuc  1 e 1 @681 ]
+"14701
+[v _U1P3H U1P3H `VEuc  1 e 1 @682 ]
+"14721
+[v _U1CON0 U1CON0 `VEuc  1 e 1 @683 ]
+[s S1513 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 MODE3 1 0 :1:3 
+]
+"14754
+[s S1518 . 1 `uc 1 U1MODE 1 0 :4:0 
+`uc 1 U1RXEN 1 0 :1:4 
+`uc 1 U1TXEN 1 0 :1:5 
+`uc 1 U1ABDEN 1 0 :1:6 
+`uc 1 U1BRGS 1 0 :1:7 
+]
+[s S1524 . 1 `uc 1 U1MODE0 1 0 :1:0 
+`uc 1 U1MODE1 1 0 :1:1 
+`uc 1 U1MODE2 1 0 :1:2 
+`uc 1 U1MODE3 1 0 :1:3 
+]
+[s S1529 . 1 `uc 1 MODE 1 0 :4:0 
+`uc 1 RXEN 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 ABDEN 1 0 :1:6 
+`uc 1 BRGS 1 0 :1:7 
+]
+[u S1535 . 1 `S1513 1 . 1 0 `S1518 1 . 1 0 `S1524 1 . 1 0 `S1529 1 . 1 0 ]
+[v _U1CON0bits U1CON0bits `VES1535  1 e 1 @683 ]
+"14849
+[v _U1CON1 U1CON1 `VEuc  1 e 1 @684 ]
+[s S1477 . 1 `uc 1 SENDB 1 0 :1:0 
+`uc 1 BRKOVR 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 RXBIMD 1 0 :1:3 
+`uc 1 WUE 1 0 :1:4 
+`uc 1 . 1 0 :2:5 
+`uc 1 ON 1 0 :1:7 
+]
+"14874
+[s S1485 . 1 `uc 1 U1SENDB 1 0 :1:0 
+`uc 1 U1BRKOVR 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 U1RXBIMD 1 0 :1:3 
+`uc 1 U1WUE 1 0 :1:4 
+`uc 1 . 1 0 :2:5 
+`uc 1 U1ON 1 0 :1:7 
+]
+[u S1493 . 1 `S1477 1 . 1 0 `S1485 1 . 1 0 ]
+[v _U1CON1bits U1CON1bits `VES1493  1 e 1 @684 ]
+"14929
+[v _U1CON2 U1CON2 `VEuc  1 e 1 @685 ]
+"15078
+[v _U1BRGL U1BRGL `VEuc  1 e 1 @686 ]
+"15098
+[v _U1BRGH U1BRGH `VEuc  1 e 1 @687 ]
+"15118
+[v _U1FIFO U1FIFO `VEuc  1 e 1 @688 ]
+[s S1631 . 1 `uc 1 RXBF 1 0 :1:0 
+`uc 1 RXBE 1 0 :1:1 
+`uc 1 XON 1 0 :1:2 
+`uc 1 RXIDL 1 0 :1:3 
+`uc 1 TXBF 1 0 :1:4 
+`uc 1 TXBE 1 0 :1:5 
+`uc 1 STPMD 1 0 :1:6 
+`uc 1 TXWRE 1 0 :1:7 
+]
+"15153
+[s S1640 . 1 `uc 1 U1RXBF 1 0 :1:0 
+`uc 1 U1RXBE 1 0 :1:1 
+`uc 1 U1XON 1 0 :1:2 
+`uc 1 U1RXIDL 1 0 :1:3 
+`uc 1 U1TXBF 1 0 :1:4 
+`uc 1 U1TXBE 1 0 :1:5 
+`uc 1 U1STPMD 1 0 :1:6 
+`uc 1 U1TXWRE 1 0 :1:7 
+]
+[s S1649 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 U1RCIDL 1 0 :1:3 
+]
+[s S1652 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 RCIDL 1 0 :1:3 
+]
+[u S1655 . 1 `S1631 1 . 1 0 `S1640 1 . 1 0 `S1649 1 . 1 0 `S1652 1 . 1 0 ]
+[v _U1FIFObits U1FIFObits `VES1655  1 e 1 @688 ]
+"15248
+[v _U1UIR U1UIR `VEuc  1 e 1 @689 ]
+[s S1563 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 ABDIE 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 ABDIF 1 0 :1:6 
+`uc 1 WUIF 1 0 :1:7 
+]
+"15269
+[s S1569 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 U1ABDIE 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 U1ABDIF 1 0 :1:6 
+`uc 1 U1WUIF 1 0 :1:7 
+]
+[u S1575 . 1 `S1563 1 . 1 0 `S1569 1 . 1 0 ]
+[v _U1UIRbits U1UIRbits `VES1575  1 e 1 @689 ]
+"15304
+[v _U1ERRIR U1ERRIR `VEuc  1 e 1 @690 ]
+[s S1591 . 1 `uc 1 TXCIF 1 0 :1:0 
+`uc 1 RXFOIF 1 0 :1:1 
+`uc 1 RXBKIF 1 0 :1:2 
+`uc 1 FERIF 1 0 :1:3 
+`uc 1 CERIF 1 0 :1:4 
+`uc 1 ABDOVF 1 0 :1:5 
+`uc 1 PERIF 1 0 :1:6 
+`uc 1 TXMTIF 1 0 :1:7 
+]
+"15331
+[s S1600 . 1 `uc 1 U1TXCIF 1 0 :1:0 
+`uc 1 U1RXFOIF 1 0 :1:1 
+`uc 1 U1RXBKIF 1 0 :1:2 
+`uc 1 U1FERIF 1 0 :1:3 
+`uc 1 U1CERIF 1 0 :1:4 
+`uc 1 U1ABDOVF 1 0 :1:5 
+`uc 1 U1PERIF 1 0 :1:6 
+`uc 1 U1TXMTIF 1 0 :1:7 
+]
+[u S1609 . 1 `S1591 1 . 1 0 `S1600 1 . 1 0 ]
+[v _U1ERRIRbits U1ERRIRbits `VES1609  1 e 1 @690 ]
+"15416
+[v _U1ERRIE U1ERRIE `VEuc  1 e 1 @691 ]
+"18814
+[v _TMR1L TMR1L `VEuc  1 e 1 @786 ]
+"18934
+[v _TMR1H TMR1H `VEuc  1 e 1 @787 ]
+"19054
+[v _T1CON T1CON `VEuc  1 e 1 @788 ]
+[s S1281 . 1 `uc 1 ON 1 0 :1:0 
+`uc 1 RD16 1 0 :1:1 
+`uc 1 NOT_SYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CKPS 1 0 :2:4 
+]
+"19096
+[s S1287 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 T1RD16 1 0 :1:1 
+`uc 1 NOT_T1SYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+]
+[s S1294 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nSYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CKPS0 1 0 :1:4 
+`uc 1 CKPS1 1 0 :1:5 
+]
+[s S1300 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RD161 1 0 :1:1 
+]
+[s S1303 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nT1SYNC 1 0 :1:2 
+]
+[u S1306 . 1 `S1281 1 . 1 0 `S1287 1 . 1 0 `S1294 1 . 1 0 `S1300 1 . 1 0 `S1303 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES1306  1 e 1 @788 ]
+"19276
+[v _T1GCON T1GCON `VEuc  1 e 1 @789 ]
+"19562
+[v _T1GATE T1GATE `VEuc  1 e 1 @790 ]
+"19728
+[v _T1CLK T1CLK `VEuc  1 e 1 @791 ]
+"31931
+[v _ANSELA ANSELA `VEuc  1 e 1 @1024 ]
+"31976
+[v _WPUA WPUA `VEuc  1 e 1 @1025 ]
+"32026
+[v _ODCONA ODCONA `VEuc  1 e 1 @1026 ]
+"32071
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @1027 ]
+"32116
+[v _INLVLA INLVLA `VEuc  1 e 1 @1028 ]
+"32166
+[v _IOCAP IOCAP `VEuc  1 e 1 @1029 ]
+"32216
+[v _IOCAN IOCAN `VEuc  1 e 1 @1030 ]
+"32266
+[v _IOCAF IOCAF `VEuc  1 e 1 @1031 ]
+"32316
+[v _ANSELC ANSELC `VEuc  1 e 1 @1040 ]
+"32366
+[v _WPUC WPUC `VEuc  1 e 1 @1041 ]
+"32416
+[v _ODCONC ODCONC `VEuc  1 e 1 @1042 ]
+"32466
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @1043 ]
+"32516
+[v _INLVLC INLVLC `VEuc  1 e 1 @1044 ]
+"32566
+[v _IOCCP IOCCP `VEuc  1 e 1 @1045 ]
+"32616
+[v _IOCCN IOCCN `VEuc  1 e 1 @1046 ]
+"32666
+[v _IOCCF IOCCF `VEuc  1 e 1 @1047 ]
+[s S25 . 1 `uc 1 INT0IE 1 0 :1:0 
+`uc 1 ZCDIE 1 0 :1:1 
+`uc 1 ADIE 1 0 :1:2 
+`uc 1 ACTIE 1 0 :1:3 
+`uc 1 C1IE 1 0 :1:4 
+`uc 1 SMT1IE 1 0 :1:5 
+`uc 1 SMT1PRAIE 1 0 :1:6 
+`uc 1 SMT1PWAIE 1 0 :1:7 
+]
+"35808
+[s S34 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 CM1IE 1 0 :1:4 
+]
+"35808
+[u S37 . 1 `S25 1 . 1 0 `S34 1 . 1 0 ]
+"35808
+"35808
+[v _PIE1bits PIE1bits `VES37  1 e 1 @1193 ]
+[s S966 . 1 `uc 1 SPI1RXIE 1 0 :1:0 
+`uc 1 SPI1TXIE 1 0 :1:1 
+`uc 1 SPI1IE 1 0 :1:2 
+`uc 1 TMR2IE 1 0 :1:3 
+`uc 1 TMR1IE 1 0 :1:4 
+`uc 1 TMR1GIE 1 0 :1:5 
+`uc 1 CCP1IE 1 0 :1:6 
+`uc 1 TMR0IE 1 0 :1:7 
+]
+"35920
+[u S975 . 1 `S966 1 . 1 0 ]
+"35920
+"35920
+[v _PIE3bits PIE3bits `VES975  1 e 1 @1195 ]
+[s S170 . 1 `uc 1 SPI2RXIE 1 0 :1:0 
+`uc 1 SPI2TXIE 1 0 :1:1 
+`uc 1 SPI2IE 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 C2IE 1 0 :1:4 
+`uc 1 CLC2IE 1 0 :1:5 
+`uc 1 PWM2PIE 1 0 :1:6 
+`uc 1 PWM2IE 1 0 :1:7 
+]
+"36048
+[s S179 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 CM2IE 1 0 :1:4 
+]
+"36048
+[u S182 . 1 `S170 1 . 1 0 `S179 1 . 1 0 ]
+"36048
+"36048
+[v _PIE5bits PIE5bits `VES182  1 e 1 @1197 ]
+[s S420 . 1 `uc 1 I2C1RXIE 1 0 :1:0 
+`uc 1 I2C1TXIE 1 0 :1:1 
+`uc 1 I2C1IE 1 0 :1:2 
+`uc 1 I2C1EIE 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 CLC3IE 1 0 :1:5 
+`uc 1 PWM3PIE 1 0 :1:6 
+`uc 1 PWM3IE 1 0 :1:7 
+]
+"36167
+[u S429 . 1 `S420 1 . 1 0 ]
+"36167
+"36167
+[v _PIE7bits PIE7bits `VES429  1 e 1 @1199 ]
+[s S67 . 1 `uc 1 INT0IF 1 0 :1:0 
+`uc 1 ZCDIF 1 0 :1:1 
+`uc 1 ADIF 1 0 :1:2 
+`uc 1 ACTIF 1 0 :1:3 
+`uc 1 C1IF 1 0 :1:4 
+`uc 1 SMT1IF 1 0 :1:5 
+`uc 1 SMT1PRAIF 1 0 :1:6 
+`uc 1 SMT1PWAIF 1 0 :1:7 
+]
+"36455
+[s S76 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 CM1IF 1 0 :1:4 
+]
+"36455
+[u S79 . 1 `S67 1 . 1 0 `S76 1 . 1 0 ]
+"36455
+"36455
+[v _PIR1bits PIR1bits `VES79  1 e 1 @1204 ]
+[s S987 . 1 `uc 1 SPI1RXIF 1 0 :1:0 
+`uc 1 SPI1TXIF 1 0 :1:1 
+`uc 1 SPI1IF 1 0 :1:2 
+`uc 1 TMR2IF 1 0 :1:3 
+`uc 1 TMR1IF 1 0 :1:4 
+`uc 1 TMR1GIF 1 0 :1:5 
+`uc 1 CCP1IF 1 0 :1:6 
+`uc 1 TMR0IF 1 0 :1:7 
+]
+"36567
+[u S996 . 1 `S987 1 . 1 0 ]
+"36567
+"36567
+[v _PIR3bits PIR3bits `VES996  1 e 1 @1206 ]
+[s S212 . 1 `uc 1 SPI2RXIF 1 0 :1:0 
+`uc 1 SPI2TXIF 1 0 :1:1 
+`uc 1 SPI2IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 C2IF 1 0 :1:4 
+`uc 1 CLC2IF 1 0 :1:5 
+`uc 1 PWM2PIF 1 0 :1:6 
+`uc 1 PWM2IF 1 0 :1:7 
+]
+"36695
+[s S221 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 CM2IF 1 0 :1:4 
+]
+"36695
+[u S224 . 1 `S212 1 . 1 0 `S221 1 . 1 0 ]
+"36695
+"36695
+[v _PIR5bits PIR5bits `VES224  1 e 1 @1208 ]
+[s S854 . 1 `uc 1 INT1IF 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 CWG1IF 1 0 :1:2 
+`uc 1 NCO1IF 1 0 :1:3 
+`uc 1 DMA2SCNTIF 1 0 :1:4 
+`uc 1 DMA2DCNTIF 1 0 :1:5 
+`uc 1 DMA2ORIF 1 0 :1:6 
+`uc 1 DMA2AIF 1 0 :1:7 
+]
+"36757
+[u S863 . 1 `S854 1 . 1 0 ]
+"36757
+"36757
+[v _PIR6bits PIR6bits `VES863  1 e 1 @1209 ]
+[s S943 . 1 `uc 1 I2C1RXIF 1 0 :1:0 
+`uc 1 I2C1TXIF 1 0 :1:1 
+`uc 1 I2C1IF 1 0 :1:2 
+`uc 1 I2C1EIF 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 CLC3IF 1 0 :1:5 
+`uc 1 PWM3PIF 1 0 :1:6 
+`uc 1 PWM3IF 1 0 :1:7 
+]
+"36814
+[u S952 . 1 `S943 1 . 1 0 ]
+"36814
+"36814
+[v _PIR7bits PIR7bits `VES952  1 e 1 @1210 ]
+[s S885 . 1 `uc 1 INT2IF 1 0 :1:0 
+`uc 1 . 1 0 :2:1 
+`uc 1 TMR4IF 1 0 :1:3 
+`uc 1 DMA4SCNTIF 1 0 :1:4 
+`uc 1 DMA4DCNTIF 1 0 :1:5 
+`uc 1 DMA4ORIF 1 0 :1:6 
+`uc 1 DMA4AIF 1 0 :1:7 
+]
+"36984
+[u S893 . 1 `S885 1 . 1 0 ]
+"36984
+"36984
+[v _PIR10bits PIR10bits `VES893  1 e 1 @1213 ]
+"37019
+[v _LATA LATA `VEuc  1 e 1 @1214 ]
+[s S1809 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+]
+"37034
+[u S1816 . 1 `S1809 1 . 1 0 ]
+"37034
+"37034
+[v _LATAbits LATAbits `VES1816  1 e 1 @1214 ]
+"37064
+[v _LATC LATC `VEuc  1 e 1 @1216 ]
+"37114
+[v _TRISA TRISA `VEuc  1 e 1 @1222 ]
+"37164
+[v _TRISC TRISC `VEuc  1 e 1 @1224 ]
+[s S802 . 1 `uc 1 INT0EDG 1 0 :1:0 
+`uc 1 INT1EDG 1 0 :1:1 
+`uc 1 INT2EDG 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 IPEN 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"37334
+[s S810 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 GIEH 1 0 :1:7 
+]
+"37334
+[u S813 . 1 `S802 1 . 1 0 `S810 1 . 1 0 ]
+"37334
+"37334
+[v _INTCON0bits INTCON0bits `VES813  1 e 1 @1238 ]
+"18 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/main.c
+[v _last_timer_capture_left last_timer_capture_left `VEul  1 e 4 0 ]
+"19
+[v _last_timer_capture_right last_timer_capture_right `VEul  1 e 4 0 ]
+"20
+[v _timeout_count_left timeout_count_left `VEus  1 e 2 0 ]
+"21
+[v _timeout_count_right timeout_count_right `VEus  1 e 2 0 ]
+"22
+[v _sequence_number_left sequence_number_left `VEus  1 e 2 0 ]
+"23
+[v _sequence_number_right sequence_number_right `VEus  1 e 2 0 ]
+"24
+[v _edge_detected_left edge_detected_left `VEa  1 e 1 0 ]
+"25
+[v _edge_detected_right edge_detected_right `VEa  1 e 1 0 ]
+"27
+[v _register_map register_map `[256]uc  1 s 256 register_map ]
+"28
+[v _current_register current_register `uc  1 s 1 current_register ]
+"29
+[v _register_received register_received `a  1 s 1 register_received ]
+"36 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/mcc_generated_files/comparator/src/cmp1.c
+[v _CMP1_InterruptHandler CMP1_InterruptHandler `*.37(v  1 s 2 CMP1_InterruptHandler ]
+"36 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/mcc_generated_files/comparator/src/cmp2.c
+[v _CMP2_InterruptHandler CMP2_InterruptHandler `*.37(v  1 s 2 CMP2_InterruptHandler ]
+"64 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/mcc_generated_files/i2c_client/src/i2c1.c
+[v _i2c1ErrorState i2c1ErrorState `VEE13402  1 s 1 i2c1ErrorState ]
+"65
+[v _I2C1_InterruptHandler I2C1_InterruptHandler `*.37(a  1 s 2 I2C1_InterruptHandler ]
+"38 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/mcc_generated_files/system/src/interrupt.c
+[v _INT0_InterruptHandler INT0_InterruptHandler `*.37(v  1 e 2 0 ]
+"39
+[v _INT1_InterruptHandler INT1_InterruptHandler `*.37(v  1 e 2 0 ]
+"40
+[v _INT2_InterruptHandler INT2_InterruptHandler `*.37(v  1 e 2 0 ]
+"56 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/mcc_generated_files/timer/src/tmr1.c
+[v _timer1ReloadVal timer1ReloadVal `VEus  1 s 2 timer1ReloadVal ]
+"58
+[v _TMR1_OverflowCallback TMR1_OverflowCallback `*.37(v  1 s 2 TMR1_OverflowCallback ]
+[s S1417 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"51 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/mcc_generated_files/uart/src/uart1.c
+[u S1422 . 2 `S1417 1 . 1 0 `ui 1 status 2 0 ]
+[v _uart1RxLastError uart1RxLastError `VES1422  1 s 2 uart1RxLastError ]
+"57
+[v _UART1_FramingErrorHandler UART1_FramingErrorHandler `*.37(v  1 s 2 UART1_FramingErrorHandler ]
+"58
+[v _UART1_OverrunErrorHandler UART1_OverrunErrorHandler `*.37(v  1 s 2 UART1_OverrunErrorHandler ]
+"59
+[v _UART1_ParityErrorHandler UART1_ParityErrorHandler `*.37(v  1 s 2 UART1_ParityErrorHandler ]
+"146 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"179
+} 0
+"41 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/mcc_generated_files/system/src/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"52
+} 0
+"69 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/mcc_generated_files/uart/src/uart1.c
+[v _UART1_Initialize UART1_Initialize `(v  1 e 1 0 ]
+{
+"114
+} 0
+"306
+[v _UART1_ParityErrorCallbackRegister UART1_ParityErrorCallbackRegister `(v  1 e 1 0 ]
+{
+[v UART1_ParityErrorCallbackRegister@callbackHandler callbackHandler `*.37(v  1 p 2 7 ]
+"312
+} 0
+"298
+[v _UART1_OverrunErrorCallbackRegister UART1_OverrunErrorCallbackRegister `(v  1 e 1 0 ]
+{
+[v UART1_OverrunErrorCallbackRegister@callbackHandler callbackHandler `*.37(v  1 p 2 7 ]
+"304
+} 0
+"290
+[v _UART1_FramingErrorCallbackRegister UART1_FramingErrorCallbackRegister `(v  1 e 1 0 ]
+{
+[v UART1_FramingErrorCallbackRegister@callbackHandler callbackHandler `*.37(v  1 p 2 7 ]
+"296
+} 0
+"60 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/mcc_generated_files/timer/src/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+{
+"87
+} 0
+"38 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"108
+} 0
+"42 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"71
+} 0
+"187
+[v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT2_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 7 ]
+"189
+} 0
+"161
+[v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT1_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 7 ]
+"163
+} 0
+"135
+[v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 7 ]
+"137
+} 0
+"67 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/mcc_generated_files/i2c_client/src/i2c1.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+{
+"118
+} 0
+"44 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/mcc_generated_files/dac/src/dac2.c
+[v _DAC2_Initialize DAC2_Initialize `(v  1 e 1 0 ]
+{
+"51
+} 0
+"40 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/mcc_generated_files/comparator/src/cmp2.c
+[v _CMP2_Initialize CMP2_Initialize `(v  1 e 1 0 ]
+{
+"68
+} 0
+"97
+[v _CMP2_InterruptCallbackRegister CMP2_InterruptCallbackRegister `(v  1 e 1 0 ]
+{
+[v CMP2_InterruptCallbackRegister@callbackHandler callbackHandler `*.37(v  1 p 2 7 ]
+"103
+} 0
+"40 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/mcc_generated_files/comparator/src/cmp1.c
+[v _CMP1_Initialize CMP1_Initialize `(v  1 e 1 0 ]
+{
+"68
+} 0
+"97
+[v _CMP1_InterruptCallbackRegister CMP1_InterruptCallbackRegister `(v  1 e 1 0 ]
+{
+[v CMP1_InterruptCallbackRegister@callbackHandler callbackHandler `*.37(v  1 p 2 7 ]
+"103
+} 0
+"39 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/mcc_generated_files/system/src/clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+{
+"58
+} 0
+"53 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/mcc_generated_files/dac/src/dac2.c
+[v _DAC2_SetOutput DAC2_SetOutput `(v  1 e 1 0 ]
+{
+[v DAC2_SetOutput@inputData inputData `uc  1 p 1 wreg ]
+[v DAC2_SetOutput@inputData inputData `uc  1 p 1 wreg ]
+"55
+[v DAC2_SetOutput@inputData inputData `uc  1 p 1 7 ]
+"56
+} 0
+"80 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+{
+"115
+} 0
+"166 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/mcc_generated_files/timer/src/tmr1.c
+[v _TMR1_OverflowISR TMR1_OverflowISR `(v  1 e 1 0 ]
+{
+"177
+} 0
+"184
+[v _TMR1_DefaultOverflowCallback TMR1_DefaultOverflowCallback `(v  1 s 1 TMR1_DefaultOverflowCallback ]
+{
+"187
+} 0
+"131
+[v _TMR1_CounterSet TMR1_CounterSet `(v  1 e 1 0 ]
+{
+"135
+[v TMR1_CounterSet@onState onState `a  1 a 1 4 ]
+"131
+[v TMR1_CounterSet@timerVal timerVal `ul  1 p 4 0 ]
+"147
+} 0
+"184 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/mcc_generated_files/i2c_client/src/i2c1.c
+[v _I2C1_ISR I2C1_ISR `(v  1 e 1 0 ]
+{
+"187
+} 0
+"194
+[v _I2C1_EventHandler I2C1_EventHandler `(v  1 s 1 I2C1_EventHandler ]
+{
+"263
+} 0
+"189
+[v _I2C1_ERROR_ISR I2C1_ERROR_ISR `(v  1 e 1 0 ]
+{
+"192
+} 0
+"265
+[v _I2C1_ErrorEventHandler I2C1_ErrorEventHandler `(v  1 s 1 I2C1_ErrorEventHandler ]
+{
+"307
+} 0
+"86 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/mcc_generated_files/comparator/src/cmp2.c
+[v _CMP2_ISR CMP2_ISR `(v  1 e 1 0 ]
+{
+"95
+} 0
+"105
+[v _CMP2_DefaultInterruptCallback CMP2_DefaultInterruptCallback `(v  1 s 1 CMP2_DefaultInterruptCallback ]
+{
+"110
+} 0
+"51 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/main.c
+[v _OnCmp2Edge OnCmp2Edge `(v  1 e 1 0 ]
+{
+"65
+} 0
+"80 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/mcc_generated_files/comparator/src/cmp2.c
+[v _CMP2_GetOutputStatus CMP2_GetOutputStatus `(a  1 e 1 0 ]
+{
+"84
+} 0
+"86 /Users/eliasgroot/Documents/Development/ASE/rpm-encoder/mcc_generated_files/comparator/src/cmp1.c
+[v _CMP1_ISR CMP1_ISR `(v  1 e 1 0 ]
+{
+"95
+} 0
+"105
+[v _CMP1_DefaultInterruptCallback CMP1_DefaultInterruptCallback `(v  1 s 1 CMP1_DefaultInterruptCallback ]
+{
+"110
+} 0
